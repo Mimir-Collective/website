@@ -273,7 +273,12 @@ main{padding-bottom:0!important}
 /* Connect footer: line under CONNECT label, gold bottom line, centered copyright */
 .site-footer-label{margin-bottom:0!important}
 .site-footer .section-rule{margin:16px 0 32px}
-.site-footer-bottom{border-top:1px solid #c9a227!important;text-align:center!important}.site-footer-bottom a{color:#c9a227;text-decoration:none}
+.site-footer-bottom{border-top:1px solid #c9a227!important;text-align:center!important}
+.foot-roll{display:inline-block;height:20px;overflow:hidden;line-height:20px;vertical-align:middle}
+.foot-roll a{display:block;transition:transform .35s ease,color .35s ease;text-decoration:none}
+.foot-roll a span{display:block;height:20px;line-height:20px;color:#9a9aa2}
+.foot-roll a span:nth-child(2){color:#FAF8F2}
+.foot-roll:hover a{transform:translateY(-20px)}
 
 
 /* Connect rule full width on tablet/mobile, desktop stays 1144px like other sections */
@@ -428,7 +433,7 @@ body.footer-in-view .side-icons{opacity:0;visibility:hidden;pointer-events:none}
 <p class="site-footer-desc">Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.</p>
 </div>
 </div>
-<div class="site-footer-bottom">© 2026 Mimir Collective &middot; <a href="privacy.html">Privacy</a></div>
+<div class="site-footer-bottom">© 2026 Mimir Collective &middot; <span class="foot-roll"><a href="privacy.html"><span>Privacy</span><span>Privacy</span></a></span></div>
 </footer>
 
 <script>(function(){
