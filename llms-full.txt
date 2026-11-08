@@ -1,0 +1,87 @@
+# Mimir Collective
+
+> Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+
+## About
+
+We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+
+Mimir Collective is a cryptography research and development group. We research and build privacy infrastructure, we audit other teams' code, and we publish open-source zero-knowledge circuits.
+
+## Services
+
+### ZK Privacy
+
+We build privacy infrastructure for on-chain finance, letting institutions disclose what they must and keep the rest private.
+
+### Security Audits
+
+We audit other teams' code through Cantina, catching flaws before they reach users.
+
+## Research
+
+2,400+ DeFi exploit findings, swept daily, feeding our threat model.
+
+## Libraries
+
+### noir-sparse-merkle
+
+A Sparse Merkle Tree circuit for Noir that proves a key either belongs to, or is absent from, a committed tree root. Supports membership and non-membership proofs in one interface, built for proof of innocence.
+
+https://github.com/mimir-collective/noir-sparse-merkle
+
+### poseidon2-interop-kit
+
+An open-source Poseidon2 kit that standardizes hashing across Noir, Rust, and Solidity for privacy systems using sparse Merkle trees and note/nullifier flows. Correctness, compatibility, and developer ergonomics, not a new primitive.
+
+https://github.com/mimir-collective/poseidon2-interop-kit
+
+### noir-nullifier
+
+A ZK spend circuit for Noir that proves note ownership and prevents double-spends without revealing which note is being spent. Combines commitment membership and nullifier non-membership proofs in one composable interface.
+
+https://github.com/mimir-collective/noir-nullifier
+
+## FAQ
+
+### What is Mimir Collective?
+
+We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+
+### What do you build?
+
+Private payments infrastructure for onchain finance, built on zero-knowledge circuits. Live selling is the first deployment, not the whole product.
+
+### What is a zero-knowledge proof?
+
+A way to prove something is true without showing the thing itself. For example, proving a payment is valid without revealing who paid whom, or how much.
+
+### What is Robinhood Chain?
+
+A blockchain built for tokenized assets and onchain markets. It is where Mimir builds today.
+
+### Is your code open source?
+
+Yes. Our zero-knowledge circuits are public on GitHub, anyone can read, use, and build on them. The libraries are noir-sparse-merkle, poseidon2-interop-kit, and noir-nullifier.
+
+### Do you audit other teams' code?
+
+Yes. We audit other teams' code through Cantina, catching flaws before they reach users.
+
+### What is the quantum threat?
+
+Quantum computers could one day break the cryptography that protects money and messages today. We build privacy infrastructure designed to hold up against that day.
+
+### How do I contact Mimir?
+
+Write to general@mimircollective.io.
+
+## Privacy
+
+We collect almost nothing. We count visits, and we see which pages are viewed. We do not use cookies, and we do not identify you. If you give us your email address, we keep it only to send you what you asked for. Full policy: https://www.mimircollective.io/privacy.html
+
+## Contact
+
+- Email: general@mimircollective.io
+- GitHub: https://github.com/mimir-collective
+- X: https://x.com/mimircollective
