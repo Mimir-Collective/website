@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ | Mimir Collective</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="description" content="Questions about Mimir Collective, answered. What we build, what privacy means here, and how to reach us.">
+<link rel="preload" as="video" href="hero-eye-clean.mp4">
+<link rel="canonical" href="https://www.mimircollective.io/faq.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mimir Collective">
+<meta property="og:title" content="FAQ | Mimir Collective">
+<meta property="og:description" content="Questions about Mimir Collective, answered. What we build, what privacy means here, and how to reach us.">
+<meta property="og:url" content="https://www.mimircollective.io/faq.html">
+<meta property="og:image" content="https://www.mimircollective.io/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mimir Collective, Making Web3 Private, over the eye">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.mimircollective.io/og-image.jpg">
+<meta name="twitter:image:alt" content="Mimir Collective, Making Web3 Private, over the eye">
+<meta name="twitter:site" content="@mimircollective">
+<meta name="twitter:title" content="FAQ | Mimir Collective">
+<meta name="twitter:description" content="Questions about Mimir Collective, answered. What we build, what privacy means here, and how to reach us.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Mimir Collective","url":"https://mimircollective.io/","description":"Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.","sameAs":["https://github.com/mimir-collective","https://x.com/mimircollective"],"email":"general@mimircollective.io","logo":"https://www.mimircollective.io/brand-mark.png"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Mimir Collective","url":"https://mimircollective.io/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Service","name":"ZK Privacy","description":"We build privacy infrastructure for on-chain finance, letting institutions disclose what they must and keep the rest private.","provider":{"@type":"Organization","name":"Mimir Collective","url":"https://mimircollective.io/"}},{"@type":"Service","name":"Security Audits","description":"We audit other teams' code through Cantina, catching flaws before they reach users.","provider":{"@type":"Organization","name":"Mimir Collective","url":"https://mimircollective.io/"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareSourceCode", "name": "noir-sparse-merkle", "description": "A Sparse Merkle Tree circuit for Noir that proves a key either belongs to, or is absent from, a committed tree root. Supports membership and non-membership proofs in one interface, built for proof of innocence.", "codeRepository": "https://github.com/mimir-collective/noir-sparse-merkle", "programmingLanguage": "Noir", "author": {"@type": "Organization", "name": "Mimir Collective", "url": "https://mimircollective.io/"}, "isPartOf": {"@type": "Organization", "name": "Mimir Collective", "url": "https://mimircollective.io/"}}, {"@type": "SoftwareSourceCode", "name": "poseidon2-interop-kit", "description": "An open-source Poseidon2 kit that standardizes hashing across Noir, Rust, and Solidity for privacy systems using sparse Merkle trees and note/nullifier flows. Correctness, compatibility, and developer ergonomics, not a new primitive.", "codeRepository": "https://github.com/mimir-collective/poseidon2-interop-kit", "programmingLanguage": "Rust", "author": {"@type": "Organization", "name": "Mimir Collective", "url": "https://mimircollective.io/"}, "isPartOf": {"@type": "Organization", "name": "Mimir Collective", "url": "https://mimircollective.io/"}}, {"@type": "SoftwareSourceCode", "name": "noir-nullifier", "description": "A ZK spend circuit for Noir that proves note ownership and prevents double-spends without revealing which note is being spent. Combines commitment membership and nullifier non-membership proofs in one composable interface.", "codeRepository": "https://github.com/mimir-collective/noir-nullifier", "programmingLanguage": "Noir", "author": {"@type": "Organization", "name": "Mimir Collective", "url": "https://mimircollective.io/"}, "isPartOf": {"@type": "Organization", "name": "Mimir Collective", "url": "https://mimircollective.io/"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Mimir Collective?", "acceptedAnswer": {"@type": "Answer", "text": "We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat."}}, {"@type": "Question", "name": "What do you build?", "acceptedAnswer": {"@type": "Answer", "text": "Private payments infrastructure for onchain finance, built on zero-knowledge circuits. Live selling is the first deployment, not the whole product."}}, {"@type": "Question", "name": "What is a zero-knowledge proof?", "acceptedAnswer": {"@type": "Answer", "text": "A way to prove something is true without showing the thing itself. For example, proving a payment is valid without revealing who paid whom, or how much."}}, {"@type": "Question", "name": "What is Robinhood Chain?", "acceptedAnswer": {"@type": "Answer", "text": "A blockchain built for tokenized assets and onchain markets. It is where Mimir builds today."}}, {"@type": "Question", "name": "Is your code open source?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our zero-knowledge circuits are public on GitHub, anyone can read, use, and build on them. The libraries are noir-sparse-merkle, poseidon2-interop-kit, and noir-nullifier."}}, {"@type": "Question", "name": "Do you audit other teams' code?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We audit other teams' code through Cantina, catching flaws before they reach users."}}, {"@type": "Question", "name": "What is the quantum threat?", "acceptedAnswer": {"@type": "Answer", "text": "Quantum computers could one day break the cryptography that protects money and messages today. We build privacy infrastructure designed to hold up against that day."}}, {"@type": "Question", "name": "How do I contact Mimir?", "acceptedAnswer": {"@type": "Answer", "text": "Write to general@mimircollective.io."}}]}</script>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html { scrollbar-color: #FAF8F2 #101218; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #101218; }
+::-webkit-scrollbar-thumb { background: #FAF8F2; }
+.edge-glow { position: absolute; top: 0; bottom: 0; right: 12px; width: 1px; background: linear-gradient(to bottom, transparent 0%, #c9a227 15%, #c9a227 85%, transparent 100%); z-index: 100; pointer-events: none; }
+.hero-fade { display: none; }
+body { background: #000000; color: #FAF8F2; font-family: 'Liberation Sans', Arial, Helvetica, sans-serif; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+header { position: fixed; top: 0; left: 0; right: 0; z-index: 50; display: flex; justify-content: space-between; align-items: flex-start; padding: 12px 28px 0 12px; }
+.brand img { height: 48px; width: auto; display: block; transition: filter .2s; }
+.brand:hover img, .brand:focus-visible img { filter: drop-shadow(0 0 10px rgba(201,162,39,0.9)); }
+nav { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+nav a { font-size: 11px; letter-spacing: .18em; color: #9a9aa2; line-height: 1.9; transition: color .2s; }
+nav a:hover { color: #c9a227; }
+main { padding: 0 64px 90px 96px; }
+.label { font-size: 16px; font-weight: 700; letter-spacing: .28em; color: #9a9aa2; }
+.label.center { text-align: center; }
+.block { margin-top: 110px; min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; }
+.block:not([id]) { margin-top: 0; min-height: auto; justify-content: flex-start; }
+#about { margin-top: 0; min-height: auto; justify-content: flex-start; padding-top: 40px; padding-bottom: 320px; scroll-margin-top: 0; }
+#about .statement { font-size: 56px; line-height: 1.05; }
+.zone { position: relative; }
+.zone-inner { position: relative; }
+.hero-zone { margin: 0 -64px 0 -96px; padding: 0; overflow: hidden; position: relative; z-index: 30; min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; }
+.hero-video { position: relative; display: block; width: 100%; height: auto; -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%); mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%); }
+.hero-zone { opacity: 0; transform: scale(1.03); transition: opacity 1.1s ease, transform 1.2s ease; }
+.hero-zone.in { opacity: 1; transform: scale(1); }
+header, .side-icons { opacity: 0; transition: opacity .8s ease .3s; }
+body.loaded header, body.loaded .side-icons { opacity: 1; }
+.hero-text { position: relative; z-index: 1; text-align: center; }
+.eyebrow { font-size: 11px; letter-spacing: .34em; }
+.hero { font-size: 84px; line-height: .98; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; margin-top: 10px; }
+.hero-gold { color: #c9a227; }
+.backdrop { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.backdrop img { height: 150%; opacity: .22; animation: drift 26s ease-in-out infinite alternate; }
+@keyframes drift { from { transform: scale(1); } to { transform: scale(1.12); } }
+.statement { font-size: 40px; line-height: 1.25; font-weight: 700; margin-top: 16px; }
+.statement .w { color: #2e3238; transition: color .25s; }
+.statement .w.lit { color: #FAF8F2; }
+.statement .w.gold.lit { color: #c9a227; }
+.punct { color: #2e3238; transition: color .25s; }
+.statement .w.lit + .punct { color: #FAF8F2; }
+.ruled { border-top: 1px solid #2a2a30; margin-top: 16px; }
+.row { padding: 30px 0; border-bottom: 1px solid #2a2a30; transition: background .15s; }
+.row:hover { background: #c9a227; }
+.row-title { font-size: 56px; font-weight: 900; text-transform: uppercase; line-height: 1; }
+.row-title .w { color: #2e3238; transition: color .25s; }
+.row-title .w.lit { color: #FAF8F2; }
+.row:hover .row-title .w, .row:hover .row-title .w.lit { color: #101218; }
+.row-desc { font-size: 13px; color: #9a9aa2; margin-top: 6px; transition: color .15s; }
+.row:hover .row-desc { color: #1a1a1a; }
+.motto-zone { margin: 110px -64px 0 -96px; padding: 90px 64px; overflow: hidden; min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; }
+.motto-text { position: relative; text-align: center; }
+.motto { font-size: 60px; line-height: 1; font-weight: 900; text-transform: uppercase; margin-top: 16px; }
+.attribution { font-size: 11px; letter-spacing: .28em; color: #9a9aa2; margin-top: 16px; }
+.connect { display: flex; justify-content: space-between; gap: 40px; margin-top: 16px; }
+.conn-col { display: flex; flex-direction: column; gap: 8px; }
+.conn-link { font-size: 30px; font-weight: 700; line-height: 1.7; padding: 0 6px; transition: background .15s, color .15s; }
+.conn-link:hover { background: #c9a227; color: #101218; }
+.conn-link .tri { display: inline-block; width: 0; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 11px solid #c9a227; margin-right: 10px; }
+.conn-link:hover .tri { border-left-color: #101218; }
+.conn-value { font-size: 16px; margin-top: 8px; }
+.side-icons { position: fixed; left: 12px; bottom: 12px; z-index: 50; display: flex; flex-direction: column; gap: 16px; }
+.side-icon { color: #9a9aa2; display: flex; align-items: center; gap: 8px; transition: color .2s; }
+.side-icon:hover { color: #c9a227; }
+.side-icon .ic { display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; font-size: 15px; font-weight: 900; }
+.side-icon .ic-x { font-size: 17px; }
+.side-icon.soon { opacity: .55; }
+.side-icon { position: relative; }
+.icon-tip { font-family: 'Liberation Sans', Arial, Helvetica, sans-serif; position: absolute; left: 30px; top: 50%; transform: translateY(-50%) translateX(-4px); font-size: 10px; letter-spacing: .15em; color: #c9a227; opacity: 0; visibility: hidden; transition: opacity .25s ease, transform .25s ease, visibility .25s; white-space: nowrap; pointer-events: none; }
+.side-icon:hover .icon-tip, .side-icon:focus .icon-tip { opacity: 1; visibility: visible; transform: translateY(-50%) translateX(0); }
+.home { position: relative; }
+.home:hover .icon-tip, .home:focus .icon-tip { opacity: 1; visibility: visible; transform: translateY(-50%) translateX(0); }
+.soon-tag { font-family: 'Liberation Sans', Arial, Helvetica, sans-serif; position: absolute; left: 30px; top: 50%; transform: translateY(-50%) translateX(-4px); font-size: 10px; letter-spacing: .15em; color: #c9a227; opacity: 0; visibility: hidden; transition: opacity .25s ease, transform .25s ease, visibility .25s; white-space: nowrap; pointer-events: none; }
+.side-icon.soon:hover .soon-tag, .side-icon.soon:focus .soon-tag { opacity: 1; visibility: visible; transform: translateY(-50%) translateX(0); }
+.side-icon.soon:hover { opacity: 1; }
+.menu-pill { display: none; }
+.menu-overlay { display: none; }
+.top-fade { display: block; position: fixed; top: 0; left: 0; right: 0; height: 140px; background: linear-gradient(to bottom, #000000 0%, transparent 100%); z-index: 40; pointer-events: none; }
+.bottom-fade { display: block; position: fixed; bottom: 0; left: 0; right: 0; height: 140px; background: linear-gradient(to top, #000000 0%, transparent 100%); z-index: 40; pointer-events: none; }
+@media (max-width: 640px) {
+  header { padding: 12px 8px 0; z-index: 60; }
+  .brand img { height: 40px; }
+  main { padding: 0 24px 64px 64px; }
+  .hero-zone { margin: 0 -24px 0 -64px; padding: 20px 0 64px; position: relative; z-index: 30; min-height: 100vh; min-height: 100dvh; display: block; }
+  .hero-zone.settled { transform: none; }
+  .edge-glow { display: none; }
+  .hero-fade { display: block; position: absolute; top: 20px; bottom: 64px; left: 0; right: 0; background: linear-gradient(to bottom, #000000 0%, transparent 30%, transparent 70%, #000000 100%); pointer-events: none; z-index: 2; }
+  .hero-video { -webkit-mask-image: none; mask-image: none; }
+  .top-fade { display: block; position: fixed; top: 0; left: 0; right: 0; height: 140px; background: linear-gradient(to bottom, #000000 0%, transparent 100%); z-index: 40; pointer-events: none; }
+  .bottom-fade { display: block; position: fixed; bottom: 0; left: 0; right: 0; height: 140px; background: linear-gradient(to top, #000000 0%, transparent 100%); z-index: 40; pointer-events: none; }
+  .hero { font-size: 34px; }
+  .label { font-size: 13px; font-weight: 700; }
+  .statement { font-size: 28px; }
+  .row-title { font-size: 32px; }
+  .motto-zone { margin: 64px -24px 0 -64px; padding: 64px 24px; }
+  .motto { font-size: 30px; }
+  .conn-link { font-size: 20px; }
+  .connect { flex-direction: column; }
+  .side-icons { display: none; }
+  .brand { display: none; }
+  header nav { display: none; }
+  header { justify-content: flex-end; }
+  .menu-pill { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 44px; height: 44px; padding: 0; border: none; background: transparent; cursor: pointer; }
+  .menu-pill span { display: block; width: 28px; height: 4px; background: #c9a227; }
+  .menu-overlay { position: fixed; inset: 0; z-index: 150; background: #000000; display: flex; flex-direction: column; padding: 28px 24px; opacity: 0; visibility: hidden; transition: opacity .3s; }
+  body.menu-open .menu-overlay { opacity: 1; visibility: visible; }
+  body.menu-open { overflow: hidden; }
+  .menu-close { align-self: flex-end; display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: none; background: transparent; cursor: pointer; position: relative; }
+  .menu-close span { position: absolute; width: 28px; height: 4px; background: #c9a227; }
+  .menu-close span:first-child { transform: rotate(45deg); }
+  .menu-close span:last-child { transform: rotate(-45deg); }
+  .menu-links { display: flex; flex-direction: column; gap: 8px; margin-top: 40px; }
+  .menu-links a { font-size: 30px; font-weight: 700; line-height: 1.7; padding: 0 6px; transition: color .2s; }
+  .menu-links a:hover, .menu-links a:active { color: #c9a227; }
+  .menu-links a::before { content: ""; display: inline-block; width: 0; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 11px solid #c9a227; margin-right: 10px; }
+  .block { margin-top: 64px; }
+  #about { margin-top: 0; padding-top: 24px; padding-bottom: 240px; min-height: 100dvh; justify-content: center; }
+  #about .statement { font-size: 36px; line-height: 1.1; }
+}
+.loader { position: fixed; inset: 0; z-index: 200; background: #000000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; transition: opacity .6s; }
+.loader.done { opacity: 0; pointer-events: none; }
+.loader-ring { position: relative; width: 128px; height: 128px; }
+.loader-ring svg { transform: rotate(-90deg); }
+.loader-track { fill: none; stroke: #2a2a30; stroke-width: 1; }
+.loader-bar { fill: none; stroke: #c9a227; stroke-width: 1; stroke-dasharray: 339.29; stroke-dashoffset: 339.29; }
+.loader-mark { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 64px; width: auto; }
+.loader-pct { font-size: 13px; letter-spacing: .28em; color: #FAF8F2; }
+@media (prefers-reduced-motion: reduce) {
+  .backdrop img { animation: none; }
+  .hero-zone, header, .side-icons { transition: none; }
+  html { scroll-behavior: auto; }
+}
+.roll { height: 20px; overflow: hidden; line-height: 20px; }
+.roll a { display: block; transition: transform .35s ease, color .35s ease; }
+.roll a span { display: block; height: 20px; line-height: 20px; }
+.roll a span:nth-child(2) { color: #FAF8F2; }
+  .roll a span:nth-child(3) { color: #c9a227; }
+.roll:hover a { transform: translateY(-20px); }
+  .roll.active a, .roll.active:hover a { transform: translateY(-40px); color: #c9a227; }
+.home { width: 22px; height: 22px; padding: 0; display: flex; align-items: center; justify-content: center; background: transparent; border: none; cursor: pointer; }
+.home svg { width: 22px; height: 22px; }
+.home path { fill: #b8b8c0; stroke: #b8b8c0; stroke-width: 0; transition: stroke .35s ease, fill .35s ease; }
+.home:hover path { stroke: #c9a227; fill: #c9a227; }
+.home:active path, .home.pressed path { fill: #c9a227; stroke: #c9a227; }
+@media (max-width: 640px) {
+  header { align-items: center; }
+  .home { width: 44px; height: 44px; }
+  .home svg { width: 28px; height: 28px; }
+  .home .icon-tip { display: none !important; }
+  .home path { stroke: #c9a227; fill: #c9a227; }
+}
+@media (max-width: 640px) { header { justify-content: space-between !important; } }
+
+#about { display: flex; align-items: center; min-height: 100vh; padding-top: 0; padding-bottom: 0; }
+#about .zone { display: flex; align-items: center; width: 100%; min-height: 100vh; }
+#about .zone-inner { width: 100%; margin: 0; }
+
+/* Subtle section tint trial: hero -> About -> Services, gradient melts, no hard cutoff */
+#about { background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(12,12,12,0.90) 35%, rgba(12,12,12,0.90) 65%, rgba(0,0,0,0) 100%); margin-left: -96px; margin-right: -64px; padding-left: 96px; padding-right: 64px; }
+#services { background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(16,16,16,0.90) 35%, rgba(16,16,16,0.90) 65%, rgba(0,0,0,0) 100%); margin-left: -96px; margin-right: -64px; padding-left: 96px; padding-right: 64px; }
+@media (max-width: 640px) {
+  #about, #services { margin-left: -64px; margin-right: -24px; padding-left: 64px; padding-right: 24px; }
+  #about { background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(12,12,12,0.90) 35%, rgba(12,12,12,0.90) 65%, rgba(0,0,0,0) 100%); }
+  #services { background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(16,16,16,0.90) 35%, rgba(16,16,16,0.90) 65%, rgba(0,0,0,0) 100%); }
+}
+
+/* About long-statement sizing fix Nov 2: 25-word statement at old 56px/36px overwhelmed and collided with nav at tablet widths */
+#about .statement { font-size: 48px; line-height: 1.12; max-width: 1020px; }
+@media (max-width: 1024px) { #about .statement { font-size: 40px; line-height: 1.15; } }
+@media (max-width: 640px) { #about .statement { font-size: 30px; line-height: 1.18; } }
+
+/* About fill-width Nov 2: statement right edge = viewport - 200px, so it fills the screen but stays ~95px clear of the right-side nav */
+#about .statement { max-width: calc(100vw - 296px); }
+@media (max-width: 640px) { #about .statement { max-width: none; } }
+
+/* Library rows: same roll animation as nav, not gold background block */
+#libraries a.row:hover{background:transparent!important}
+#libraries a.row:hover .row-desc{color:#e8e6df}
+.lib-roll{display:grid;overflow:hidden;line-height:1}
+.lib-roll .lib-copy{grid-area:1/1;transition:transform .35s ease}
+.lib-roll .lib-copy.lib-gold{transform:translateY(100%)}
+#libraries a.row:hover .lib-roll .lib-copy{transform:translateY(-100%)}
+#libraries a.row:hover .lib-roll .lib-copy.lib-gold{transform:translateY(0)}
+#libraries a.row:hover .lib-copy:not(.lib-gold) .w.lit{color:#FAF8F2}
+#libraries a.row:hover .lib-copy.lib-gold .w,#libraries a.row:hover .lib-copy.lib-gold .w.lit{color:#c9a227}
+.lib-roll .lib-copy.lib-gold .w,.lib-roll .lib-copy.lib-gold .w.lit{color:#c9a227}
+
+
+/* One section per viewport, no big gaps between sections */
+.block{margin-top:0!important}
+main{padding-bottom:0!important}
+@media(max-width:640px){.block{margin-top:0!important} main{padding-bottom:0!important}}
+
+
+
+/* Statements match: About, Research, Libraries all same size, line height, and width */
+#research .statement,#libraries .statement{font-size:48px!important;line-height:1.12!important;max-width:calc(100vw - 296px)!important;font-weight:700!important}
+@media(max-width:1024px){#research .statement,#libraries .statement{font-size:40px!important;line-height:1.15!important;max-width:calc(100vw - 296px)!important}}
+@media(max-width:640px){#research .statement,#libraries .statement{font-size:30px!important;line-height:1.18!important;max-width:none!important}}
+
+
+/* Remove the line underneath Services, after the last row only, keep the line between the two rows */
+#services .row:last-child::after{display:none!important}
+
+
+/* Libraries titles wrap on mobile, Services titles are short and stay on one line */
+@media(max-width:640px){#libraries .row-title{white-space:normal!important;width:auto!important}}
+
+
+/* Connect footer fills one viewport, like other sections, so clicking CONNECT shows only Connect, no Libraries above it */
+.site-footer{min-height:100vh!important;min-height:100dvh!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+
+
+/* Line under About and Research labels, like Services and Libraries */
+.section-rule{height:1px;background:#2a2a30;width:calc(100vw - 296px);max-width:calc(100vw - 296px);margin:16px 0 32px}
+
+
+/* Libraries cards, from libraries-cards-mockup.html, in the test homepage mockup */
+#libraries .lib-intro{font-size:18px;line-height:1.5;color:#e8e6df;max-width:calc(100vw - 296px);margin:0 0 32px}
+#libraries .lib-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;width:calc(100vw - 296px);max-width:calc(100vw - 296px)}
+#libraries .lib-card{background:#16181d;border:1px solid #2e3238;border-radius:12px;padding:28px 28px 24px;display:flex;flex-direction:column;min-height:420px;transition:border-color .25s ease,transform .35s ease;text-decoration:none;color:inherit}
+#libraries .lib-card:hover{border-color:#c9a227;transform:translateY(-4px)}
+#libraries .lib-card h3{font-size:28px;line-height:1.1;font-weight:900;text-transform:uppercase;overflow-wrap:anywhere;color:#FAF8F2}
+#libraries .lib-card:hover h3{color:#c9a227}
+#libraries .lib-card-rule{height:1px;background:#2a2a30;width:100%;margin:16px 0 24px}
+#libraries .lib-card p{font-size:16px;line-height:1.6;color:#e8e6df;flex:1}
+#libraries .lib-gh{margin:20px auto 0;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid #c9a227;border-radius:50%;background:transparent;flex:none;animation:ghPulse 2s ease-in-out infinite;transition:background .25s ease,transform .25s ease}
+#libraries .lib-gh svg{width:22px;height:22px;flex:none;color:#c9a227;transition:color .25s ease}
+#libraries .lib-card:hover .lib-gh{background:#c9a227;transform:scale(1.12)}
+#libraries .lib-card:hover .lib-gh svg{color:#000}
+@keyframes ghPulse{0%,100%{box-shadow:0 0 0 0 rgba(201,162,39,.35)}50%{box-shadow:0 0 0 10px rgba(201,162,39,0)}}
+@media(max-width:1024px){#libraries .lib-grid{grid-template-columns:1fr 1fr;width:100%;max-width:100%}#libraries .lib-intro{max-width:100%}}
+@media(max-width:640px){#libraries .lib-grid{grid-template-columns:1fr}#libraries .lib-card{min-height:0}}
+
+
+/* Connect footer: line under CONNECT label, gold bottom line, centered copyright */
+.site-footer-label{margin-bottom:0!important}
+.site-footer .section-rule{margin:16px 0 32px}
+.site-footer-bottom{border-top:1px solid #c9a227!important;text-align:center!important}
+
+
+/* Connect rule full width on tablet/mobile, desktop stays 1144px like other sections */
+@media(max-width:1024px){.site-footer .section-rule{width:100%!important;max-width:100%!important}
+.section-rule{width:100%!important;max-width:100%!important}
+#libraries{padding-top:160px!important}
+#privacy{padding-top:160px!important}}
+#libraries .lib-intro .gold{color:#c9a227}
+
+
+/* Side icons only on hero: hide them over About, Services, Research, Libraries, Connect, so they do not sit over other text. Star home button is separate and stays visible everywhere. */
+body:not(.hero-in-view) .side-icons{opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+body.hero-in-view .side-icons{opacity:1;visibility:visible;pointer-events:auto}
+
+
+/* Connect footer alignment: brand row matches first link row height, columns vertically centered with each other */
+.site-footer-grid{align-items:center!important}
+.site-footer-brand{height:32px!important;margin-bottom:12px!important}
+.site-footer-brand img{width:32px!important;height:32px!important}
+.site-footer-brand span{font-size:24px;line-height:32px}
+.site-footer-desc{margin-top:0}
+
+</style>
+<style>
+/* Complete live-text hero mockup: clean eye, real H1, shading, fade and entrance, rest of locked page unchanged */
+.hero-media{position:relative;width:100%;margin:auto 0}
+.hero-vignette{position:absolute;inset:0;pointer-events:none;z-index:3;background:radial-gradient(ellipse at center, transparent 52%, rgba(0,0,0,.55) 84%, #000 100%), linear-gradient(to bottom, #000 0%, transparent 28%, transparent 72%, #000 100%)}
+.hero-headline{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:40;text-align:center;pointer-events:none;width:max-content;max-width:92vw}
+.hero-eyebrow{font-size:clamp(14px,1.4vw,20px);letter-spacing:.28em;color:#FAF8F2;margin:0 0 16px;opacity:0}
+.hero-headline h1{font-size:clamp(72px,9vw,140px);line-height:1.02;text-transform:uppercase;font-weight:800;margin:0;color:#FAF8F2;letter-spacing:-.01em}
+.hl-line{display:block;text-align:center;opacity:0;clip-path:inset(0 0 100% 0);transform:scaleY(1.12)}
+.hl-line.gold{color:#c9a227}
+.hero-zone.in .hero-video{animation:videoBrighten 1.2s ease-out forwards}
+@keyframes videoBrighten{from{filter:brightness(.2)}to{filter:brightness(1)}}
+.hero-zone.in .hero-eyebrow{animation:lineReveal 1.2s ease-out forwards}
+.hero-zone.in .hl-line:nth-child(1){animation:lineReveal 1.2s ease-out .05s forwards}
+.hero-zone.in .hl-line:nth-child(2){animation:lineReveal 1.2s ease-out .17s forwards}
+.hero-zone.in .hl-line:nth-child(3){animation:lineReveal 1.2s ease-out .29s forwards}
+@keyframes lineReveal{from{opacity:0;clip-path:inset(0 0 100% 0);transform:scaleY(1.12)}to{opacity:1;clip-path:inset(0 0 0 0);transform:scaleY(1)}}
+@media(max-width:640px){.hero-zone{display:flex;flex-direction:column;justify-content:center}.hero-headline{top:44%}.hero-headline h1{font-size:70px}.hero-eyebrow{font-size:11px}}
+</style>
+<style>
+.what-we-do-clean{padding-right:0}
+.what-we-do-clean .row-title{font-size:56px;line-height:1;font-weight:900;text-transform:uppercase;white-space:nowrap;width:max-content;max-width:100%}
+.what-we-do-clean a.row{text-decoration:none;color:inherit}
+.row{display:block;position:relative;padding:30px 0;border-bottom:none}
+.what-we-do-clean .ruled{border-top:none}
+.what-we-do-clean .row:hover{background:transparent!important}
+.what-we-do-clean .ruled::before{content:"";display:block;width:720px;max-width:100%;height:1px;background:#2a2a30}
+.what-we-do-clean .row::after{content:"";position:absolute;left:0;bottom:0;width:720px;max-width:100%;height:1px;background:#2a2a30}
+.what-we-do-clean .row-desc{display:block;position:static;transform:none;margin-top:12px;max-width:720px;font-size:18px;line-height:1.5;color:#e8e6df;text-align:left}
+.what-we-do-clean .row-title.slice{background-image:none;-webkit-background-clip:initial;background-clip:initial;color:#2e3238;-webkit-text-fill-color:inherit}.what-we-do-clean .w{color:#2e3238;transition:color .25s}.what-we-do-clean .w.lit{color:#FAF8F2}.what-we-do-clean .w.gold.lit{color:#c9a227}.what-we-do-clean .row:hover .row-title .w{color:#2e3238}.what-we-do-clean .row:hover .row-title .w.lit{color:#FAF8F2}.what-we-do-clean .row:active .row-title .w{color:#2e3238}.what-we-do-clean .row:active .row-title .w.lit{color:#FAF8F2}
+@media(max-width:640px){.what-we-do-clean{padding-right:0}.what-we-do-clean .row{display:block}.what-we-do-clean .row-title{font-size:28px}.what-we-do-clean .row{display:block;padding:20px 0}.what-we-do-clean .row-desc{position:static;transform:none;display:block;margin-top:10px;max-width:none;font-size:15px;color:#e8e6df}}
+</style>
+
+<style>
+@media(max-width:900px) and (min-width:641px){
+  .what-we-do-clean .row-desc{max-width:500px}
+  .what-we-do-clean .ruled::before,.what-we-do-clean .row::after{width:500px}
+  .connect{flex-direction:column}
+}
+</style>
+<style>
+/* Services fill-width Nov 2: same principle as About, notes and hairlines right edge = viewport - 200px, gap to nav ~95px */
+@media(min-width:641px){
+  .what-we-do-clean .row-desc{max-width:calc(100vw - 296px)}
+  .what-we-do-clean .ruled::before,.what-we-do-clean .row::after{width:calc(100vw - 296px);max-width:calc(100vw - 296px)}
+}
+</style>
+
+<!-- Vercel Web Analytics -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>if('scrollRestoration' in history){try{history.scrollRestoration='manual';}catch(e){}}if(window.location.hash){try{history.replaceState(null,'',window.location.pathname+window.location.search);}catch(e){}}window.scrollTo(0,0);window.addEventListener('load',function(){window.scrollTo(0,0);});</script>
+<style>
+/* MOCKUP ONLY: 404 / privacy page styles. Side icons hidden: they live on the hero, and these pages have no hero. */
+.side-icons{display:none!important}
+.page-404 .huge-404{font-size:clamp(120px,22vw,260px);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#FAF8F2;margin:8px 0 32px}
+.page-line{font-size:clamp(28px,4vw,44px);font-weight:700;line-height:1.15;color:#FAF8F2;margin:0 0 24px}
+.page-line .gold{color:#c9a227}
+.page-body{font-size:18px;line-height:1.7;color:#d8d8de;max-width:720px;margin:0 0 24px}
+.page-body a{color:#c9a227;text-decoration:none;border-bottom:1px solid #c9a227}
+.page-link{display:inline-block;margin-top:16px;font-size:13px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:#c9a227;text-decoration:none;border-bottom:1px solid #c9a227;padding-bottom:4px}
+.page-link:hover{color:#FAF8F2;border-bottom-color:#FAF8F2}
+.page-cols{margin-top:40px}
+.page-privacy{padding-top:160px}
+.page-item{margin-bottom:32px}
+.page-sub{font-size:13px;font-weight:700;letter-spacing:.28em;color:#FAF8F2;margin:0 0 12px}
+.page-updated{font-size:14px;color:#9a9aa2;margin-top:40px}
+@media(max-width:640px){.page-body{font-size:17px}.page-cols{margin-top:32px}}
+</style>
+</head>
+<body class="loaded">
+
+<noscript><style>.loader { display: none; } .hero-zone, header, .side-icons { opacity: 1; transform: none; }</style></noscript>
+
+<header>
+<button class="home" aria-label="Home, back to the well" onclick="location.href='index.html'"><svg viewBox="0 0 72 72"><path d="M36 2 L44 28 L70 36 L44 44 L36 70 L28 44 L2 36 L28 28 Z"/></svg><span class="icon-tip">home</span></button>
+<nav>
+<div class="roll" data-sec="about"><a href="index.html#about"><span>ABOUT</span><span>ABOUT</span><span>ABOUT</span></a></div>
+<div class="roll" data-sec="services"><a href="index.html#services"><span>SERVICES</span><span>SERVICES</span><span>SERVICES</span></a></div>
+<div class="roll" data-sec="research"><a href="index.html#research"><span>RESEARCH</span><span>RESEARCH</span><span>RESEARCH</span></a></div>
+<div class="roll" data-sec="libraries"><a href="index.html#libraries"><span>LIBRARIES</span><span>LIBRARIES</span><span>LIBRARIES</span></a></div>
+<div class="roll" data-sec="contact"><a href="index.html#contact"><span>CONNECT</span><span>CONNECT</span><span>CONNECT</span></a></div>
+</nav>
+<button class="menu-pill" id="menu-pill" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+<div class="menu-overlay" id="menu-overlay">
+<button class="menu-close" id="menu-close" aria-label="Close menu"><span></span><span></span></button>
+<nav class="menu-links">
+<a href="index.html#about">ABOUT</a>
+<a href="index.html#services">SERVICES</a>
+<a href="index.html#research">RESEARCH</a>
+<a href="index.html#libraries">LIBRARIES</a>
+<a href="index.html#contact">CONNECT</a>
+</nav>
+</div>
+<div class="top-fade" aria-hidden="true"></div>
+<div class="bottom-fade" aria-hidden="true"></div>
+<main>
+<section class="block page-privacy" id="privacy">
+<h2 class="label">FREQUENTLY ASKED QUESTIONS</h2>
+<div class="section-rule"></div>
+<h1 class="page-line">Questions, <span class="gold">answered</span>.</h1>
+<div class="page-cols">
+<div class="page-item"><h3 class="page-sub">WHAT IS MIMIR COLLECTIVE?</h3><p class="page-body">We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.</p></div>
+<div class="page-item"><h3 class="page-sub">WHAT DO YOU BUILD?</h3><p class="page-body">Private payments infrastructure for onchain finance, built on zero-knowledge circuits. Live selling is the first deployment, not the whole product.</p></div>
+<div class="page-item"><h3 class="page-sub">WHAT IS A ZERO-KNOWLEDGE PROOF?</h3><p class="page-body">A way to prove something is true without showing the thing itself. For example, proving a payment is valid without revealing who paid whom, or how much.</p></div>
+<div class="page-item"><h3 class="page-sub">WHAT IS ROBINHOOD CHAIN?</h3><p class="page-body">A blockchain built for tokenized assets and onchain markets. It is where Mimir builds today.</p></div>
+<div class="page-item"><h3 class="page-sub">IS YOUR CODE OPEN SOURCE?</h3><p class="page-body">Yes. Our zero-knowledge circuits are public on GitHub, anyone can read, use, and build on them. The libraries are noir-sparse-merkle, poseidon2-interop-kit, and noir-nullifier.</p></div>
+<div class="page-item"><h3 class="page-sub">DO YOU AUDIT OTHER TEAMS' CODE?</h3><p class="page-body">Yes. We audit other teams' code through Cantina, catching flaws before they reach users.</p></div>
+<div class="page-item"><h3 class="page-sub">WHAT IS THE QUANTUM THREAT?</h3><p class="page-body">Quantum computers could one day break the cryptography that protects money and messages today. We build privacy infrastructure designed to hold up against that day.</p></div>
+<div class="page-item"><h3 class="page-sub">HOW DO I CONTACT MIMIR?</h3><p class="page-body">Write to general@mimircollective.io.</p></div>
+</div>
+<p class="page-updated"><p class="page-updated">Last updated November 8, 2026.</p>
+</section>
+
+</main>
+
+<style>
+.site-footer{border-top:0;background:#000;color:#FAF8F2;padding:48px 96px 32px;font-family:system-ui,-apple-system,sans-serif;line-height:1.5}
+.site-footer-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.site-footer-brand{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.site-footer-brand img{width:48px;height:48px;flex:none}
+.site-footer-brand span{font-size:24px;font-weight:900;letter-spacing:1px}
+.site-footer-desc{color:#e8e6df;max-width:560px}
+.site-footer-label{font-size:16px;font-weight:700;letter-spacing:.28em;color:#9a9aa2;margin-bottom:32px}
+.site-footer-connect h3{font-size:16px;font-weight:700;letter-spacing:.28em;color:#9a9aa2;margin-bottom:16px}
+.site-footer-connect a{color:#e8e6df;display:flex;align-items:center;gap:10px;margin-bottom:10px;width:fit-content;text-decoration:none}
+.site-footer-connect a:hover{color:#c9a227}
+.site-footer-soon{color:#e8e6df;display:flex;align-items:center;gap:10px;margin-bottom:10px;width:fit-content}
+.site-footer-soon:hover{color:#c9a227}
+.site-footer-ic{display:flex;align-items:center;justify-content:center;width:22px;height:22px;font-size:15px;font-weight:900;flex:none}
+.site-footer-ic-x{font-size:17px}
+body.footer-in-view .side-icons{opacity:0;visibility:hidden;pointer-events:none}
+.site-footer-bottom{border-top:1px solid #c9a227;margin-top:32px;padding-top:20px;color:#9a9aa2;font-size:14px;text-align:center}
+@media (max-width:1024px){.site-footer{padding:40px 48px 28px}.site-footer-grid{grid-template-columns:1fr}}
+@media (max-width:640px){.site-footer{padding:32px 24px 24px 64px}}
+</style>
+
+<footer class="site-footer" id="contact">
+<div class="site-footer-label">CONNECT</div><div class="section-rule"></div>
+<div class="site-footer-grid">
+<div class="site-footer-connect">
+<a href="https://github.com/mimir-collective" target="_blank" rel="noopener"><span class="site-footer-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span>github.com/mimir-collective</a>
+<a href="https://x.com/mimircollective" target="_blank" rel="noopener"><span class="site-footer-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></span>x.com/mimircollective</a>
+<a href="mailto:general@mimircollective.io"><span class="site-footer-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,6 12,13 22,6"/></svg></span>general@mimircollective.io</a>
+<div class="site-footer-soon"><span class="site-footer-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></span>Telegram, coming soon</div>
+</div>
+<div>
+<div class="site-footer-brand"><img src="brand-mark.png" alt="Mimir Collective tree logo" width="48" height="48"><span>Mimir Collective</span></div>
+<p class="site-footer-desc">Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.</p>
+</div>
+</div>
+<div class="site-footer-bottom">© 2026 Mimir Collective</div>
+</footer>
+
+<script>(function(){
+function forceLitSection(sec){
+  if(!sec) return;
+  window.__navLitId = sec.id;
+  sec.querySelectorAll('.w').forEach(function(w){w.classList.add('lit');});
+  // Services section itself is a data-scrub block, its words are already covered above
+}
+function goToSection(hash){
+  var id = hash.replace('#','');
+  if(!id) return;
+  var sec = document.getElementById(id);
+  if(!sec) return;
+  document.body.classList.remove('menu-open');
+  var pill = document.getElementById('menu-pill'); if(pill) pill.setAttribute('aria-expanded','false');
+  var useCenter = sec.getBoundingClientRect().height < window.innerHeight;
+  try { sec.scrollIntoView({behavior:'smooth', block: 'start'}); } catch(e) { sec.scrollIntoView(); }
+  // Force lit after smooth scroll settles, and also immediately so it does not sit grey while scrolling
+  forceLitSection(sec);
+  setTimeout(function(){ forceLitSection(sec); if(window.requestAnimationFrame){requestAnimationFrame(function(){document.dispatchEvent(new Event('scroll'));});} }, 900);
+}
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  var href = a.getAttribute('href');
+  if(!href || href === '#') return;
+  a.addEventListener('click', function(e){
+    var target = document.getElementById(href.replace('#',''));
+    if(!target) return;
+    e.preventDefault();
+    history.replaceState(null, '', href);
+    goToSection(href);
+  });
+});
+})();</script>
+<div class="side-icons">
+<a class="side-icon" href="https://github.com/mimir-collective" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span><span class="icon-tip">github.com/mimir-collective</span></a>
+<a class="side-icon" href="https://x.com/mimircollective" target="_blank" rel="noopener" aria-label="X" title="X @mimircollective"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></span><span class="icon-tip">@mimircollective</span></a>
+<a class="side-icon" href="mailto:general@mimircollective.io" aria-label="Email" title="general@mimircollective.io"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,6 12,13 22,6"/></svg></span><span class="icon-tip">general@mimircollective.io</span></a>
+<a class="side-icon soon" href="#" aria-label="Telegram coming soon" title="Telegram announcement channel, coming soon"><span class="ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></span><span class="soon-tag">coming soon</span></a>
+</div>
+
+<script>
+(function () {
+  var pill = document.getElementById('menu-pill');
+  var overlay = document.getElementById('menu-overlay');
+  var close = document.getElementById('menu-close');
+  if (!pill || !overlay) return;
+  function open() { document.body.classList.add('menu-open'); pill.setAttribute('aria-expanded', 'true'); }
+  function shut() { document.body.classList.remove('menu-open'); pill.setAttribute('aria-expanded', 'false'); }
+  pill.addEventListener('click', open);
+  if (close) close.addEventListener('click', shut);
+  overlay.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', shut); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') shut(); });
+})();
+(function () {
+  var blocks = Array.prototype.slice.call(document.querySelectorAll('[data-scrub]'));
+  var ticking = false;
+  function scrub() {
+    ticking = false;
+    var vh = window.innerHeight;
+    blocks.forEach(function (block) {
+      var rect = block.getBoundingClientRect();
+      var words = block.querySelectorAll('.w');
+      var navId = window.__navLitId;
+      var inNavLit = navId && (block.id === navId || block.closest('#' + navId) !== null);
+      var fullyInFrame = rect.top >= -10 && rect.bottom <= vh + 10;
+      var lit;
+      if (inNavLit || fullyInFrame) { lit = words.length; }
+      else {
+        var isAbout = block.closest('#about') !== null || block.closest('#services') !== null;
+        var total = isAbout ? vh * 0.5 : rect.height * 0.5 + vh * 0.05;
+        var p = isAbout ? (vh * 0.75 - rect.top) / total : (vh * 1.0 - rect.top) / total;
+        if (p < 0) p = 0; if (p > 1) p = 1;
+        lit = Math.floor(p * words.length);
+      }
+      for (var i = 0; i < words.length; i++) {
+        if (i < lit) words[i].classList.add('lit');
+        else words[i].classList.remove('lit');
+      }
+    });
+  }
+  function requestScrub() {
+    if (!ticking) { ticking = true; requestAnimationFrame(scrub); }
+  }
+  window.addEventListener('scroll', requestScrub, { passive: true });
+  window.addEventListener('resize', requestScrub);
+  scrub();
+})();
+</script>
+
+
+
+<script>
+(function () {
+  var rolls = document.querySelectorAll('header .roll');
+  var map = {}; rolls.forEach(function (r) { map[r.dataset.sec] = r; });
+  var first = true;
+  function setActive(id) { rolls.forEach(function (r) { r.classList.remove('active'); }); var el = map[id]; if (!el) return; void el.offsetWidth; el.classList.add('active'); }
+  var obs = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { if (first) { first = false; setTimeout(function () { setActive(e.target.id); }, 600); } else { setActive(e.target.id); } } }); }, { rootMargin: '-10% 0px -80% 0px' });
+  document.querySelectorAll('main section.block').forEach(function (s) { if (s.id) obs.observe(s); });
+  // Hero: nothing highlighted at the very top, over the hero picture.
+  function clearIfHero() { if (window.scrollY < 200) { rolls.forEach(function (r) { r.classList.remove('active'); }); } }
+  window.addEventListener('scroll', clearIfHero, { passive: true });
+  clearIfHero();
+})();
+</script>
+<script>
+document.querySelectorAll('.home').forEach(function (b) { b.addEventListener('click', function () { b.classList.add('pressed'); setTimeout(function () { b.classList.remove('pressed'); }, 600); }); });
+</script>
+
+<script>
+(function(){
+  var f = document.getElementById('contact');
+  if (!f || !window.IntersectionObserver) return;
+  var obs = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (e.isIntersecting) document.body.classList.add('footer-in-view');
+      else document.body.classList.remove('footer-in-view');
+    });
+  }, { threshold: 0.1 });
+  obs.observe(f);
+})();
+</script>
+
+
+<script>
+// Side icons only on hero: show them when the hero is in view, hide them on every other section.
+(function(){
+  var hero = document.querySelector('.hero-zone');
+  if (!hero || !window.IntersectionObserver) { document.body.classList.add('hero-in-view'); return; }
+  var obs = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (e.isIntersecting) document.body.classList.add('hero-in-view');
+      else document.body.classList.remove('hero-in-view');
+    });
+  }, { threshold: 0.3 });
+  obs.observe(hero);
+})();
+</script>
+
+</body>
+</html>
