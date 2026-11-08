@@ -1,0 +1,23 @@
+# Mimir Collective
+
+> Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+
+Mimir Collective researches and builds privacy infrastructure for Web3 finance, tokenized assets and onchain markets. We build private payments infrastructure for onchain finance, built on zero-knowledge circuits. Live selling is the first deployment.
+
+## Pages
+
+- [Homepage](https://www.mimircollective.io/): Privacy for on-chain finance.
+- [Privacy Policy](https://www.mimircollective.io/privacy.html): What Mimir Collective collects, and what it does not.
+- [FAQ](https://www.mimircollective.io/faq.html): Questions about Mimir Collective, answered.
+
+## Libraries
+
+- [noir-sparse-merkle](https://github.com/mimir-collective/noir-sparse-merkle): A Sparse Merkle Tree circuit for Noir that proves a key either belongs to, or is absent from, a committed tree root.
+- [poseidon2-interop-kit](https://github.com/mimir-collective/poseidon2-interop-kit): An open-source Poseidon2 kit that standardizes hashing across Noir, Rust, and Solidity for privacy systems using sparse Merkle trees and note/nullifier flows.
+- [noir-nullifier](https://github.com/mimir-collective/noir-nullifier): A ZK spend circuit for Noir that proves note ownership and prevents double-spends without revealing which note is being spent.
+
+## Contact
+
+- [Email](mailto:general@mimircollective.io): general@mimircollective.io
+- [GitHub](https://github.com/mimir-collective)
+- [X](https://x.com/mimircollective)
