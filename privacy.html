@@ -434,6 +434,10 @@ body.footer-in-view .side-icons{opacity:0;visibility:hidden;pointer-events:none}
 .site-footer-bottom{border-top:1px solid #c9a227;margin-top:32px;padding-top:20px;color:#9a9aa2;font-size:14px;text-align:center}
 @media (max-width:1024px){.site-footer{padding:40px 48px 28px}.site-footer-grid{grid-template-columns:1fr}}
 @media (max-width:640px){.site-footer{padding:32px 24px 24px 64px}}
+
+.bar-split{display:flex!important;justify-content:space-between;align-items:center;text-align:left!important}
+.bar-links a{color:#9a9aa2;text-decoration:none;margin-left:28px}
+.bar-links a:hover{color:#FAF8F2}
 </style>
 
 <footer class="site-footer" id="contact">
@@ -450,7 +454,7 @@ body.footer-in-view .side-icons{opacity:0;visibility:hidden;pointer-events:none}
 <p class="site-footer-desc">Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.</p>
 </div>
 </div>
-<div class="site-footer-bottom">© 2026 Mimir Collective</div>
+<div class="site-footer-bottom bar-split"><span>© 2026 Mimir Collective</span><span class="bar-links"><a href="privacy.html">Privacy</a><a href="faq.html">FAQ</a></span></div>
 </footer>
 
 <script>(function(){
