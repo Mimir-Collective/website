@@ -353,7 +353,7 @@ body.hero-in-view .side-icons{opacity:1;visibility:visible;pointer-events:auto}
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
-<script>if('scrollRestoration' in history){try{history.scrollRestoration='manual';}catch(e){}}if(window.location.hash){try{history.replaceState(null,'',window.location.pathname+window.location.search);}catch(e){}}window.scrollTo(0,0);window.addEventListener('load',function(){window.scrollTo(0,0);});</script>
+<script>if('scrollRestoration' in history){try{history.scrollRestoration='manual';}catch(e){}}if(!window.location.hash){window.scrollTo(0,0);window.addEventListener('load',function(){window.scrollTo(0,0);});}</script>
 <style>
 /* MOCKUP ONLY: 404 / privacy / FAQ page styles. Side icons hidden: they live on the hero, and these pages have no hero. */
 .side-icons{display:none!important}
