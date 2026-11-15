@@ -556,6 +556,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a){
   function setActive(id) { rolls.forEach(function (r) { r.classList.remove('active'); }); var el = map[id]; if (!el) return; void el.offsetWidth; el.classList.add('active'); }
   var obs = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { if (first) { first = false; setTimeout(function () { setActive(e.target.id); }, 600); } else { setActive(e.target.id); } } }); }, { rootMargin: '-10% 0px -80% 0px' });
   document.querySelectorAll('main section.block').forEach(function (s) { if (s.id) obs.observe(s); });
+  var contactEl = document.getElementById('contact'); if (contactEl) obs.observe(contactEl);
   // Hero: nothing highlighted at the very top, over the hero picture.
   function clearIfHero() { if (window.scrollY < 200) { rolls.forEach(function (r) { r.classList.remove('active'); }); } }
   window.addEventListener('scroll', clearIfHero, { passive: true });
