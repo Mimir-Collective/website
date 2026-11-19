@@ -1,10 +1,10 @@
 # Mimir Collective
 
-> Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+> Privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities across blockchains today and preparing for tomorrow's quantum threat.
 
 ## About
 
-We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities across blockchains today and preparing for tomorrow's quantum threat.
 
 Mimir Collective is a cryptography research and development group. We research and build privacy infrastructure, we audit other teams' code, and we publish open-source zero-knowledge circuits.
 
@@ -46,7 +46,7 @@ https://github.com/mimir-collective/noir-nullifier
 
 ### What is Mimir Collective?
 
-We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities on Robinhood Chain today and preparing for tomorrow's quantum threat.
+We research and build privacy infrastructure for Web3 finance, tokenized assets and onchain markets, addressing emerging opportunities across blockchains today and preparing for tomorrow's quantum threat.
 
 ### What do you build?
 
