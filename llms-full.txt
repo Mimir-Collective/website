@@ -56,10 +56,6 @@ Private payments infrastructure for onchain finance, built on zero-knowledge cir
 
 A way to prove something is true without showing the thing itself. For example, proving a payment is valid without revealing who paid whom, or how much.
 
-### What is Robinhood Chain?
-
-A blockchain built for tokenized assets and onchain markets. It is where Mimir builds today.
-
 ### Is your code open source?
 
 Yes. Our zero-knowledge circuits are public on GitHub, anyone can read, use, and build on them. The libraries are noir-sparse-merkle, poseidon2-interop-kit, and noir-nullifier.
